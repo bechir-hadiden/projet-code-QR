@@ -1,0 +1,37 @@
+name: projet_code_qr
+description: "A new Flutter project for generating QR codes."
+
+# The following line prevents the package from being accidentally published to pub.dev.
+publish_to: 'none'
+
+# Version du projet
+version: 1.0.0+1
+
+# Configuration de l'environnement
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Dépendances du projet
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.0.0  # Dépendance pour générer des QR codes
+  mobile_scanner: ^2.0.0
+
+  cupertino_icons: ^1.0.8  # Icons iOS
+  
+
+
+# Dépendances de développement
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Ajout des lints pour de bonnes pratiques
+
+# Configuration Flutter
+flutter:
+  uses-material-design: true  # Utilisation de Material Design
+
+  # Section assets (si tu as des images ou d'autres assets à ajouter)
+  # assets:
+  #   - images/a_dot_burr.jpeg
